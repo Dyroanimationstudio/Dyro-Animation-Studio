@@ -2,7 +2,7 @@
 	padding:0;
 	margin:0;
 	font-family: 'Quicksand', sans-serif;
-	color: #ec7616;
+	
 }
 header {
 	height:70px;
@@ -42,11 +42,25 @@ a {
 .container {
 	width:90%;
 	margin:0 auto;
+	color: #00d4bc;
 }
 .container::after {
 	content: '';
 	display: block;
 	clear: both;
+}
+.kolor {
+	width:90%;
+	margin:0 auto;
+}
+.kolor {
+	content: '';
+	display: block;
+	clear: both;
+}
+.kolor {
+	color: #EC1616;
+	text-decoration: none;
 }
 .mobile-menu {
 	float: right;
@@ -85,7 +99,7 @@ a {
 }
 .banner {
 	height: 40vh;
-	background-image: url('../img/ok1.jpg');
+	background-image: url('../img/mantap.jpg');
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -106,7 +120,7 @@ section {
 	margin-bottom: 0px;
 	position: absolute;
   left: px;
-  top: 150px;
+  top: 190px;
 }
 .banner h2,
 .banner p,
@@ -258,6 +272,9 @@ section h3::after {
 }
 .ps {
 	width:85%;
+}
+.col-4 {
+padding-bottom: 1000px;
 }
 .col-4 {
 	width:25%;
